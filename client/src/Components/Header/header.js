@@ -1,3 +1,9 @@
+
+
+
+
+
+
 import React, { useState } from 'react';
 
 import { faBed, faCalendarDays, faCar, faPerson, faPlane, faTowerObservation } from '@fortawesome/free-solid-svg-icons';
@@ -5,6 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { DateRange } from 'react-date-range';
 import { format } from 'date-fns';
 import { Link, useNavigate } from 'react-router-dom';
+import Typewriter from 'typewriter-effect';
 
 
 
@@ -64,12 +71,97 @@ const Header = () => {
 </nav>
 
         </div>
-        <h1 className="headerTitle">Find your next stay</h1>
+        <h1 className="headerTitle"><Typewriter
+  options={{
+    strings: ['Find your next stay'],
+    autoStart: true,
+    loop: true,
+  }}
+/></h1>
         <p className="headerDesc">
-         Find low prices on hotels,homes and much more...
+        <Typewriter
+  options={{
+    strings: [' Find low prices on hotels,homes and much more...'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+        
         </p>
+        <div className="headerSearch ">
+  <div className="col-4 col-md-2 col-lg-2 col-sm-1">
+    <div className="headerSearchItem">
+      <FontAwesomeIcon icon={faBed} className="headerIcon" />
+      <input
+        type="text"
+        placeholder="Where are you going?"
+        className="headerSearchInput"
+        onChange={(e) => setDestination(e.target.value)}
+      />
+    </div>
+  </div>
+  <div className="col-2 col-md-2 col-lg-4 col-sm-2">
+    <div className="headerSearchItem">
+      <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
+      <span onClick={() => setOpenDate(!openDate)} className="headerSearchText">
+        {`${format(date[0].startDate, 'MM/dd/yyyy')} to ${format(date[0].endDate, 'MM/dd/yyyy')}`}
+      </span>
+      {openDate && (
+        <DateRange
+          editableDateInputs={true}
+          onChange={(item) => setDate([item.selection])}
+          moveRangeOnFirstSelection={false}
+          ranges={date}
+          className="date"
+          minDate={new Date()}
+        />
+      )}
+    </div>
+  </div>
+  <div className="col-2 col-md-2 col-lg-2 col-sm-2">
+    <div className="headerSearchItem">
+      <FontAwesomeIcon icon={faPerson} className="headerIcon" />
+      <span onClick={() => setOpenOptions(!openOptions)} className="headerSearchText">
+        {`${options.adult} adult · ${options.children} children · ${options.room} room`}
+      </span>
+      {openOptions && (
+        <div className="options">
+          {['Adult', 'Children', 'Room'].map((text, index) => (
+            <div key={index} className="optionItem">
+              <span className="optionText">{text}</span>
+              <div className="optionCounter">
+                <button
+                  disabled={options[text.toLowerCase()] <= 1}
+                  className="optionCounterButton"
+                  onClick={() => handleOption(text.toLowerCase(), 'd')}
+                >
+                  -
+                </button>
+                <span className="optionCounterNumber">{options[text.toLowerCase()]}</span>
+                <button
+                  className="optionCounterButton"
+                  onClick={() => handleOption(text.toLowerCase(), 'i')}
+                >
+                  +
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+  <div className="col-md-2 col-lg-2 col-sm-1">
+    <div className="headerSearchItem ">
+      <button className="headerBtn" onClick={handleSearch}>
+        Search
+      </button>
+    </div>
+  </div>
+</div>
+
         {/* <button className="headerBtn">Sign in / Register</button> */}
-        <div className="headerSearch">
+        {/* <div className="headerSearch">
           <div className="headerSearchItem">
             <FontAwesomeIcon icon={faBed} className="headerIcon" />
             <input
@@ -132,7 +224,7 @@ const Header = () => {
               Search
             </button>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
     </>

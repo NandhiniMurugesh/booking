@@ -1,3 +1,5 @@
+@import 'react-date-range/dist/styles.css'; 
+@import 'react-date-range/dist/theme/default.css'; 
 
 .navbg{
   background-color: #003580;
@@ -11,7 +13,10 @@
  font-size: 30px;
 }
 .header {
-   background-color: #003580;
+   /* background-color: #003580; */
+   background-image: url('https://www.travelandleisure.com/thmb/bgjE1VBEhLdR_P5SO_e5PxO_3a8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/header-couple-santorini-GRHMOON0722-92c04fa8981045498a18bdd033f0af89.jpg');
+   background-size: cover;
+   background-repeat: no-repeat;
    color: white;
    display: flex;
    justify-content: center;
@@ -61,7 +66,7 @@
  }
  
  .headerSearch {
-   height: 50px;
+   height: 60px;
    background-color: white;
    border: 3px solid #febb02;
    display: flex;
@@ -82,7 +87,7 @@
  .headerSearchItem {
    display: flex;
    align-items: center;
-   gap: 10px;
+   /* gap: 10px; */
  }
  
  .headerSearchInput {
@@ -150,21 +155,51 @@
    height: 50px;
  }
 /* offer card */
-.offercard{
-  width: 500px;
+ .offercard{
+  width: 850px;
   height: 200px;
 }
 .offercardimage{
-  width: 650px;
+  width: 850px;
   height: 200px;
+} 
+
+
+.offercard {
+  width: 100%;
+  max-width: 100%; /* Adjust the maximum width according to your design */
+  
 }
-.spotcard{
-  width: 300px;
-  height: 200px;
+.carousel-inner {
+  display: flex;
+  flex-wrap: nowrap;
 }
-.loccard{
-  width: 300px;
-  height: 200px;
+/* .spotContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+} */
+
+.spotcard {
+  width: 100%;
+  max-width: 400px; /* Adjust the maximum width according to your design */
+  margin-bottom: 20px;
+}
+/* .locationContainer {
+  display: flex;
+  flex-wrap: wrap;
+   justify-content: space-evenly; 
+} */
+
+.loccard {
+  width: 80%;
+  height: 300px;
+  /* max-width: 500px; 
+  margin-bottom: 20px; */
+}
+.chnimg{
+  width: 70%;
+  height: 180px;
 }
 .singleimage{
   width: 300px;
@@ -172,24 +207,26 @@
 }
 
 .hotelcard{
-  width: 250px;
-  height: 300px;
+ border-color: #003580;
+}
+.propertiescard{
+ 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
 }
-.flightcard{
-  width: 250px;
-  height: 350px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.propertiescard:hover{
+ 
+  box-shadow: 0 6px 10px 0 rgba(52, 2, 253, 0.2), 0 6px 20px 0 rgba(40, 2, 255, 0.19);
   text-align: center;
 }
+
 .carcard{
   width: 250px;
   height: 350px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
 }
-.profilecard{
+/* .profilecard{
   width: 550px;
   height: 350px;
   margin-left: 30%;
@@ -197,7 +234,14 @@
   padding: 50px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align: center;
-}
+} */
+
+  .profilecard {
+    background-color: #0bd4f3;
+    padding: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
 .footer{
   width: 100%;
   font-size: 12px;
@@ -225,4 +269,37 @@
   margin-bottom: 10px;
   color: white;
   cursor: pointer;
+}
+.homeMain{
+ 
+  background-color: rgb(249, 195, 1);
+
+}
+.subscribeMain{
+  width: 100%;
+  height: 200px;
+  background-color: #112b65;
+  color: aliceblue;
+}
+.adMain{
+  height: 400px;
+  background-image: url('https://i.pinimg.com/originals/33/d0/a8/33d0a824fa331f551e400368ac57f87e.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.adtext{
+  margin-left: 40%;
+}
+.hotelimage{
+  width: 100px;
+}
+.hotelMain{
+  background-color: #febb02;
+}
+.flightMain{
+  background-color: #febb02;
+}
+.card:hover{
+  transform: scale(1.1);
+
 }

@@ -7,8 +7,8 @@ export function Registration() {
   return (
     <>
  
-    <div className="regform">
-      <div className="container text-center w-75 p-5">
+    <div className="regform  ">
+      <div className="container bg-info text-center w-75 p-5">
         <h2 className="text-decoration-underline">USER REGISTRATION</h2>
         <form onSubmit={()=>{alert("You have Registered Successfully!!!")}}>
           <div className="mb-3">
