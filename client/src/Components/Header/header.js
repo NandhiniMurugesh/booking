@@ -21,10 +21,11 @@ const Header = () => {
     {
       startDate: new Date(),
       endDate: new Date(),
+      
       key: 'selection',
     },
   ]);
-  const [options, setOptions] = useState({ adult: 1, children: 0, room: 1 });
+  const [options, setOptions] = useState({ adult: 0, children: 0, room: 0 });
   const [openDate, setOpenDate] = useState(false);
   const [openOptions, setOpenOptions] = useState(false);
 
