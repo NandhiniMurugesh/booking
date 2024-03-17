@@ -300,6 +300,9 @@
   color: white;
   cursor: pointer;
 }
+.fText{
+  height: 50px;
+}
 .homeMain{
   /* background-image: url(https://img95.699pic.com/photo/40132/5068.gif_wh860.gif); */
   background-image: url(https://img95.lovepik.com/photo/40107/3064.gif_wh860.gif);
