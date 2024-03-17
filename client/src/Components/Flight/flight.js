@@ -11,9 +11,11 @@ export function Flight(){
 
     return(
         <>
+         
            <div className="propertiesContainer flightMain row " data-aos="fade-up-left">
+           <h3 className="text-light text-center" data-aos="fade-up-left">Look into the Flights</h3>
         <div className="col-8 col-md-8 col-sm-8 col-lg-4 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-left">
             <img
               src="https://static.startuptalky.com/2021/09/Indigo-Airlines-StartupTalky.jpg"
               className="card-img-top"
@@ -36,7 +38,7 @@ export function Flight(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-4 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-left">
             <img
               src="https://logos-world.net/wp-content/uploads/2023/01/SpiceJet-Logo.png"
               className="card-img-top"
@@ -58,7 +60,7 @@ export function Flight(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-4 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-left">
             <img
               src="https://logohistory.net/wp-content/uploads/2023/07/AirAsia-Logo-2009.png"
               className="card-img-top"
@@ -79,7 +81,7 @@ export function Flight(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-4 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-left">
             <img
               src="https://airlinecontacts.com/wp-content/uploads/2021/05/Vistara_Logo.png"
               className="card-img-top"
@@ -100,7 +102,7 @@ export function Flight(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-4 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-left">
             <img
               src="https://www.medianews4u.com/wp-content/uploads/2023/10/Air-India-Express-unveils-new-brand-identity-aircraft-livery.jpg"
               className="card-img-top"
@@ -121,7 +123,7 @@ export function Flight(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-4 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-left">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQunQuMtZDhpJ45ff1ewoIhMZG3saIstJeFSg&usqp=CAU"
               className="card-img-top"

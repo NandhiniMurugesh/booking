@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from 'typewriter-effect';
 export function Hoteloffer(){
     return(
         <>
@@ -6,7 +7,15 @@ export function Hoteloffer(){
   
       <div className='seperator'></div>
     
-      <h3>BEST OFFERS ON GOING!!!</h3>
+      <h3 className="text-light">
+      <Typewriter
+  options={{
+    strings: [' BEST OFFERS ON GOING!!!'],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+        </h3>
       <div className="offerMain"> 
 {/* offer carousel */}
 <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">

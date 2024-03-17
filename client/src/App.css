@@ -219,6 +219,36 @@
   box-shadow: 0 6px 10px 0 rgba(52, 2, 253, 0.2), 0 6px 20px 0 rgba(40, 2, 255, 0.19);
   text-align: center;
 }
+.toppropertiescard{
+ 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.toppropertiescard:hover{
+ 
+  box-shadow: 0 6px 10px 0 rgba(52, 2, 253, 0.2), 0 6px 20px 0 rgba(40, 2, 255, 0.19);
+  text-align: center;
+}
+.loccard{
+ 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.loccard:hover{
+ 
+  box-shadow: 0 6px 10px 0 rgba(52, 2, 253, 0.2), 0 6px 20px 0 rgba(40, 2, 255, 0.19);
+  text-align: center;
+}
+.spotcard{
+ 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+.spotcard:hover{
+ 
+  box-shadow: 0 6px 10px 0 rgba(52, 2, 253, 0.2), 0 6px 20px 0 rgba(40, 2, 255, 0.19);
+  text-align: center;
+}
 
 .carcard{
   width: 250px;
@@ -271,8 +301,14 @@
   cursor: pointer;
 }
 .homeMain{
+  /* background-image: url(https://img95.699pic.com/photo/40132/5068.gif_wh860.gif); */
+  background-image: url(https://img95.lovepik.com/photo/40107/3064.gif_wh860.gif);
+background-size: cover;
+
+background-repeat: no-repeat;
+
  
-  background-color: rgb(249, 195, 1);
+  /* background-color: rgb(249, 195, 1); */
 
 }
 .subscribeMain{
@@ -302,4 +338,19 @@
 .card:hover{
   transform: scale(1.1);
 
+}
+.facebook{
+ color: #356399;
+}
+.instagram{
+ color: #fb03cd;
+}
+.twitter{
+ color: #057aef;
+}
+.email{
+  color: rgb(248, 125, 125);
+}
+.contactMain{
+  background-color: rgb(213, 245, 252);
 }

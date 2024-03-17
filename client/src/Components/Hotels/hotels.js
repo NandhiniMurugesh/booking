@@ -1,12 +1,20 @@
 
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 export function Hotels(){
+  useEffect(() => {
+    AOS.init();
+  }, []);
     return(
         <>
-           <div className="propertiesContainer hotelMain row">
+       
+           <div className="propertiesContainer hotelMain row"  data-aos="fade-up-right">
+           <h3 className="text-light text-center" data-aos="fade-up-right">Look into the Stays</h3>
         <div className="col-8 col-md-8 col-sm-8 col-lg-3 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard"  data-aos="fade-up-right">
             <img
               src="https://imageio.forbes.com/specials-images/imageserve/5cdb058a5218470008b0b00f/Nobu-Ryokan-Malibu/0x0.jpg?format=jpg&height=1009&width=2000"
               className="card-img-top"
@@ -26,7 +34,7 @@ export function Hotels(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-3 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard"  data-aos="fade-up-right">
             <img
               src="https://vaastudevayah.com/images/vastu-for-apartment1.jpg"
               className="card-img-top"
@@ -47,7 +55,7 @@ export function Hotels(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-3 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-right">
             <img
               src="https://pinoyhousedesigns.com/wp-content/uploads/2018/02/PERSPECTIVE-4-700x350.jpg"
               className="card-img-top"
@@ -68,7 +76,7 @@ export function Hotels(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-3 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-right">
             <img
               src="https://lockyourtrip.com/blogs/wp-content/uploads/2023/10/kerala.webp"
               className="card-img-top"
@@ -89,7 +97,7 @@ export function Hotels(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-3 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-right">
             <img
               src="https://c4.wallpaperflare.com/wallpaper/1011/101/300/apartment-condo-design-home-wallpaper-preview.jpg"
               className="card-img-top"
@@ -110,7 +118,7 @@ export function Hotels(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-3 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-right">
             <img
               src="https://i.pinimg.com/736x/0b/69/e1/0b69e161b919a611912be2fda2d56e2f.jpg"
               className="card-img-top"
@@ -131,7 +139,7 @@ export function Hotels(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-3 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-right">
             <img
               src="https://rac.ae/pics/portfolio/apartment-interior-design/2/1.jpg"
               className="card-img-top"
@@ -152,7 +160,7 @@ export function Hotels(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-3 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-up-right">
             <img
               src="https://media.istockphoto.com/id/1227178152/photo/modern-living-room-interior.jpg?s=612x612&w=0&k=20&c=AC-aFPObcHhEPtMTfr-RYQIkAjtFOwbxMCz5dMt-Who="
               className="card-img-top"

@@ -10,10 +10,10 @@ export function Topproperties() {
   return (
     <>
       
-      <h3>Check Out our Top Rated Properties</h3>
+      <h3 className="text-light" data-aos="fade-left">Check Out our Top Rated Properties</h3>
       <div className="toppropertiesContainer row " data-aos="fade-left">
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-left">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSli8Wuus9Pc9YsiK3KlcdG3IM6tG3W4hqFUw&usqp=CAU"
               className="card-img-top"
@@ -26,7 +26,7 @@ export function Topproperties() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-left">
             <img
               src="https://watermark.lovepik.com/photo/20211119/large/lovepik-five-star-hotels-in-tourism-picture_500209416.jpg"
               className="card-img-top"
@@ -39,7 +39,7 @@ export function Topproperties() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-left">
             <img
               src="https://jodhpur.indanahotels.com/images/8a90795f4869dc2813568a62f16e3558.jpg"
               className="card-img-top"
@@ -52,7 +52,7 @@ export function Topproperties() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-left">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2BhuP4moPzAJhRFoYi4h4UnrvskN_mGqPo1G2nNpldUAfUCylItK-f8bbowJPvFc8I0Y&usqp=CAU"
               className="card-img-top"
@@ -65,7 +65,7 @@ export function Topproperties() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-left">
             <img
               src="https://prestigiousvenues.com/wp-content/uploads/2017/03/Venue-For-Events-In-Kerala-The-Zuri-Kumarakom-Prestigious-Venues.jpg"
               className="card-img-top"
@@ -78,7 +78,7 @@ export function Topproperties() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-left">
             <img
               src="https://www.laalliancetravel.com/images/travel/attraction/mysore-palace.jpg"
               className="card-img-top"
@@ -93,10 +93,10 @@ export function Topproperties() {
       </div>
       <div className="seperator"></div>
 
-      <h3>Guests Loves these Stays</h3>
+      <h3 className="text-light" data-aos="fade-up-right">Guests Loves these Stays</h3>
       <div className="toppropertiesContainer row " data-aos="fade-up-right">
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-up-right">
             <img
               src="https://mygate.com/wp-content/uploads/2023/03/51.jpg"
               className="card-img-top"
@@ -109,7 +109,7 @@ export function Topproperties() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-up-right">
             <img
               src="https://www.sobha.com/blog/wp-content/uploads/2022/12/luxury-apartments-in-bangalore-for-sale-top-image-Sobha-Arena-1-800x400.png"
               className="card-img-top"
@@ -122,7 +122,7 @@ export function Topproperties() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-up-right">
             <img
               src="https://www.sobha.com/blog/wp-content/uploads/2023/11/benefits-of-living-in-luxury-apartments.png"
               className="card-img-top"
@@ -135,7 +135,7 @@ export function Topproperties() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-up-right">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnculIm6vJrBZOaouBD-ogXeom-QaAJub5MmISVBZy1tNUNvo_x9UvsErH7iVgxCgB66w&usqp=CAU"
               className="card-img-top"
@@ -148,7 +148,7 @@ export function Topproperties() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-up-right">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShvb_U5MU_NC7mGQ7zK_zeLXEPuusfgF3tjA&usqp=CAU"
               className="card-img-top"
@@ -161,7 +161,7 @@ export function Topproperties() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card toppropertiescard">
+          <div className="card toppropertiescard" data-aos="fade-up-right">
             <img
               src="https://muppaprojects.com/wp-content/uploads/2019/02/why-villas-in-hyderabad-are-an-attractive-investment-destination-real-estate.jpg"
               className="card-img-top"

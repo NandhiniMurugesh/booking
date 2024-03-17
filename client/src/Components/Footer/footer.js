@@ -44,6 +44,22 @@ const Footer = () => {
           <li className="fListItem">Terms & conditions</li>
         </ul>
       </div>
+      <div className="text-center">
+      
+      
+        {/* <img
+              src="https://revgrow360.com/wp-content/uploads/2022/12/OUR-BRAND-PARTNERSSS.png"
+              className="card-img-top"
+              alt="..."
+            /> */}
+        <img
+              src="https://maxbooking.vn/uploadwb/hinh_baiviet/Hinh_2_01_251920208811_b_.jpg"
+              className="card-img-top"
+              alt="..."
+            />
+      
+        
+      </div>
       <div className="fText text-center">Copyright © 2024 Oneyesbooking.com</div>
     </div>
   );

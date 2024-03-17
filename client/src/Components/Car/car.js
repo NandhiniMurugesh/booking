@@ -12,8 +12,10 @@ export function Car(){
     return(
         <>
            <div className="propertiesContainer flightMain row " data-aos="fade-down-right">
+           <h3 className="text-light text-center" data-aos="fade-downright">Look into the Cars</h3>
+
         <div className="col-8 col-md-8 col-sm-8 col-lg-4 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-down-right">
             <img
               src="https://spn-mda.spinny.com/img/2MdeMpQbSoSn0%2B0zq%2BRXVw/file.JPG"
               className="card-img-top"
@@ -36,7 +38,7 @@ export function Car(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-4 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-down-right">
             <img
               src="https://www.carlelo.com/laravel/public/uploads/model/1649927255.webp"
               className="card-img-top"
@@ -58,7 +60,7 @@ export function Car(){
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-4 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-down-right">
             <img
               src="https://imgd.aeplcdn.com/1920x1080/cw/ec/24731/Toyota-Etios-Facelift-Right-Front-Three-Quarter-79561.jpg?v=201711021421&q=80&q=80"
               className="card-img-top"
@@ -81,7 +83,7 @@ export function Car(){
         </div>
         
         <div className="col-8 col-md-8 col-sm-8 col-lg-4 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-down-right">
             <img
               src="https://stat.overdrive.in/wp-content/odgallery/2015/01/22274_4.jpg"
               className="card-img-top"
@@ -104,7 +106,7 @@ export function Car(){
         </div>
         
         <div className="col-8 col-md-8 col-sm-8 col-lg-4 mb-4">
-          <div className="card propertiescard">
+          <div className="card propertiescard" data-aos="fade-down-right">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUxSQhUhoqM-mS_pVnSCe4L2obTKqUekkg_g&usqp=CAU"
               className="card-img-top"

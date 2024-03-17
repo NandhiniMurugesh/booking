@@ -64,9 +64,9 @@ const Header = () => {
          <nav class="navbar ">
   <form class="container-fluid justify-content-start">
  
-    <button onclick={handlehotel} class="btn btn-outline-light me-2" type="button"><FontAwesomeIcon icon={faBed} />Stays</button>
-   <button onClick={handleflight} class="btn btn-outline-light me-2" type="button"><FontAwesomeIcon icon={faPlane} />Flights</button>
-    <button onClick={handlecar} class="btn btn-outline-light me-2" type="button"><FontAwesomeIcon icon={faCar} />Car Rentals</button>
+    <button onclick={handlehotel} class="btn btn-outline-light me-2" type="button"><FontAwesomeIcon icon={faBed} />  Stays</button>
+   <button onClick={handleflight} class="btn btn-outline-light me-2" type="button"><FontAwesomeIcon icon={faPlane} /> Flights</button>
+    <button onClick={handlecar} class="btn btn-outline-light me-2" type="button"><FontAwesomeIcon icon={faCar} /> Car Rentals</button>
 
   </form>
 </nav>
@@ -89,28 +89,31 @@ const Header = () => {
 />
         
         </p>
-        <div className="headerSearch ">
-  <div className="col-4 col-md-2 col-lg-2 col-sm-1">
-    <div className="headerSearchItem">
+        <div className="headerSearch text-wrap">
+  <div className="col-2 col-md-2 col-lg-2 col-sm-1">
+    <div className="headerSearchItem ">
       <FontAwesomeIcon icon={faBed} className="headerIcon" />
       <input
         type="text"
-        placeholder="Where are you going?"
-        className="headerSearchInput"
+        placeholder="Where to go?"
+        className="headerSearchInput text-wrap"
+       
         onChange={(e) => setDestination(e.target.value)}
       />
     </div>
   </div>
-  <div className="col-2 col-md-2 col-lg-4 col-sm-2">
+  <div className="col-4 col-md-2 col-lg-4 col-sm-2">
     <div className="headerSearchItem">
       <FontAwesomeIcon icon={faCalendarDays} className="headerIcon" />
-      <span onClick={() => setOpenDate(!openDate)} className="headerSearchText">
-        {`${format(date[0].startDate, 'MM/dd/yyyy')} to ${format(date[0].endDate, 'MM/dd/yyyy')}`}
+      <span onClick={() => setOpenDate(!openDate)} className="headerSearchText"  >
+        {`${format(date[0].startDate, 'MM/dd/yyyy')} to ${format(date[0].endDate, 'MM/dd/yyyy')} ` }
+       
       </span>
       {openDate && (
         <DateRange
           editableDateInputs={true}
           onChange={(item) => setDate([item.selection])}
+         
           moveRangeOnFirstSelection={false}
           ranges={date}
           className="date"
@@ -119,11 +122,11 @@ const Header = () => {
       )}
     </div>
   </div>
-  <div className="col-2 col-md-2 col-lg-2 col-sm-2">
+  <div className="col-4 col-md-2 col-lg-2 col-sm-2">
     <div className="headerSearchItem">
       <FontAwesomeIcon icon={faPerson} className="headerIcon" />
       <span onClick={() => setOpenOptions(!openOptions)} className="headerSearchText">
-        {`${options.adult} adult · ${options.children} children · ${options.room} room`}
+        {`${options.adult} Adult · ${options.children} Children · ${options.room} Room`}
       </span>
       {openOptions && (
         <div className="options">
@@ -154,7 +157,7 @@ const Header = () => {
   </div>
   <div className="col-md-2 col-lg-2 col-sm-1">
     <div className="headerSearchItem ">
-      <button className="headerBtn" onClick={handleSearch}>
+      <button className="headerBtn tec=xt-wrap" onClick={handleSearch}>
         Search
       </button>
     </div>

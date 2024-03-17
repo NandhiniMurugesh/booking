@@ -1,6 +1,8 @@
 import React, { useEffect } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { faBicycle, faHeart, faUmbrellaBeach } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function Spot() {
     useEffect(() => {
@@ -9,10 +11,17 @@ export function Spot() {
   return (
     <>
       <div className="seperator"></div>
-      <h3>Easy Trip Planner!!!</h3>
+      <h3 className="text-light" data-aos="fade-down">Easy Trip Planner!!!</h3>
+  
+      <div className=" tripplanner ">
+           <button className="btn btn-outline-light">  <FontAwesomeIcon icon={faUmbrellaBeach} />  Beach</button> 
+           <button className="btn btn-outline-light ms-2">   <FontAwesomeIcon icon={faHeart} />  Romance</button> 
+           <button className="btn btn-outline-light ms-2">   <FontAwesomeIcon icon={faBicycle} />  Outdoor</button> 
+              </div>
+              <div className="seperator"></div>
       <div className="spotContainer row " data-aos="fade-down">
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card spotcard">
+          <div className="card spotcard" data-aos="fade-down">
             <img
               src="https://www.tamilnadutourism.tn.gov.in/img/pages/large-desktop/avalanche-hills-ooty-1656333416_e2680b8680086972e69d.webp"
               className="card-img-top"
@@ -25,7 +34,7 @@ export function Spot() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card spotcard">
+          <div className="card spotcard" data-aos="fade-down">
             <img
               src="https://www.tamilnadutourism.tn.gov.in/img/pages/medium-desktop/dharmapuri-1654194392_6e3e3cdfdd3337059dd5.webp"
               className="card-img-top"
@@ -38,7 +47,7 @@ export function Spot() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card spotcard">
+          <div className="card spotcard" data-aos="fade-down">
             <img
               src="https://img.traveltriangle.com/blog/wp-content/uploads/2017/05/rsz_pondicherry_cover_kb_920506.jpg"
               className="card-img-top"
@@ -51,7 +60,7 @@ export function Spot() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card spotcard">
+          <div className="card spotcard" data-aos="fade-down">
             <img
               src="https://img.traveltriangle.com/blog/wp-content/uploads/2018/03/cover6.jpg"
               className="card-img-top"
@@ -64,7 +73,7 @@ export function Spot() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card spotcard">
+          <div className="card spotcard" data-aos="fade-down">
             <img
               src="https://images.squarespace-cdn.com/content/v1/63d13e0c40f3902347869bee/4f7fd5cd-3d03-4ad6-aaf8-fc51a56be8d1/Phoenix-Mall+enhanced.jpg"
               className="card-img-top"
@@ -77,7 +86,7 @@ export function Spot() {
           </div>
         </div>
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
-          <div className="card spotcard">
+          <div className="card spotcard" data-aos="fade-down">
             <img
               src="https://www.karnataka.com/wp-content/uploads/2010/09/bangalore-palace-main-entrance-1280x720.jpg"
               className="card-img-top"
