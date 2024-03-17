@@ -111,7 +111,8 @@ export function Topproperties() {
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
           <div className="card toppropertiescard" data-aos="fade-up-right">
             <img
-              src="https://www.sobha.com/blog/wp-content/uploads/2022/12/luxury-apartments-in-bangalore-for-sale-top-image-Sobha-Arena-1-800x400.png"
+              src="https://content.domu.com/styles/global_webp/s3/c-banner-images/luxury%20apartments%20chicago.jpg.webp?VersionId=8_1s40HPgaiILP7PI7SyFE3UaYELuMRJ&itok=nvhmahfH"
+              // src="https://www.sobha.com/blog/wp-content/uploads/2022/12/luxury-apartments-in-bangalore-for-sale-top-image-Sobha-Arena-1-800x400.png"
               className="card-img-top"
               alt="..."
             />
@@ -124,7 +125,8 @@ export function Topproperties() {
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
           <div className="card toppropertiescard" data-aos="fade-up-right">
             <img
-              src="https://www.sobha.com/blog/wp-content/uploads/2023/11/benefits-of-living-in-luxury-apartments.png"
+              // src="https://www.sobha.com/blog/wp-content/uploads/2023/11/benefits-of-living-in-luxury-apartments.png"
+              src="https://5.imimg.com/data5/SELLER/Default/2023/12/371822434/VG/CO/WO/163994486/luxury-flats-250x250.jpg"
               className="card-img-top"
               alt="..."
             />
