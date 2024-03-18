@@ -11,7 +11,7 @@ export function Spot() {
   return (
     <>
       <div className="seperator"></div>
-      <h3 className="text-light" data-aos="fade-down">Easy Trip Planner!!!</h3>
+      <h3 className="text-danger-emphasis" data-aos="fade-down">Easy Trip Planner!!!</h3>
   
       <div className=" tripplanner ">
            <button className="btn btn-outline-light">  <FontAwesomeIcon icon={faUmbrellaBeach} />  Beach</button> 

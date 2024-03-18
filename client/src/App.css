@@ -304,14 +304,12 @@
   height: 50px;
 }
 .homeMain{
-  /* background-image: url(https://img95.699pic.com/photo/40132/5068.gif_wh860.gif); */
-  background-image: url(https://img95.lovepik.com/photo/40107/3064.gif_wh860.gif);
+  background-image: url(https://cdn.dribbble.com/users/893718/screenshots/3863751/media/52ae1772ff0a309fd09f735c5c109bf9.gif);
+  /* background-image: url(https://img95.lovepik.com/photo/40107/3064.gif_wh860.gif); */
 background-size: cover;
 
-background-repeat: no-repeat;
-
+/* background-repeat: no-repeat; */
  
-  /* background-color: rgb(249, 195, 1); */
 
 }
 .subscribeMain{

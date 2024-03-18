@@ -7,7 +7,7 @@ export function Hoteloffer(){
   
       <div className='seperator'></div>
     
-      <h3 className="text-light">
+      <h3 className="text-danger-emphasis">
       <Typewriter
   options={{
     strings: [' BEST OFFERS ON GOING!!!'],

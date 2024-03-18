@@ -10,7 +10,7 @@ export function Topproperties() {
   return (
     <>
       
-      <h3 className="text-light" data-aos="fade-left">Check Out our Top Rated Properties</h3>
+      <h3 className="text-danger-emphasis" data-aos="fade-left">Check Out our Top Rated Properties</h3>
       <div className="toppropertiesContainer row " data-aos="fade-left">
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
           <div className="card toppropertiescard" data-aos="fade-left">
@@ -93,7 +93,7 @@ export function Topproperties() {
       </div>
       <div className="seperator"></div>
 
-      <h3 className="text-light" data-aos="fade-up-right">Guests Loves these Stays</h3>
+      <h3 className="text-danger-emphasis" data-aos="fade-up-right">Guests Loves these Stays</h3>
       <div className="toppropertiesContainer row " data-aos="fade-up-right">
         <div className="col-8 col-md-8 col-sm-8 col-lg-2 mb-4">
           <div className="card toppropertiescard" data-aos="fade-up-right">

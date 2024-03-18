@@ -10,7 +10,7 @@ export function Location() {
   return (
     <>
       <div className="seperator"></div>
-      <h3 className="text-light" data-aos="fade-up">Explore India!!!</h3>
+      <h3 className="text-danger-emphasis" data-aos="fade-up">Explore India!!!</h3>
       {/* location card */}
       <div className="locationContainer row" data-aos="fade-up">
         <div className="col-10 col-lg-4 mb-4">

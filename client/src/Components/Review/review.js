@@ -11,7 +11,7 @@ export function Review(){
     return(
         <>
      <div className="seperator"></div>
-      <h3 className="text-light" data-aos="fade-right">Browse By Review!!!</h3>
+      <h3 className="text-danger-emphasis" data-aos="fade-right">Browse By Review!!!</h3>
       <div className="ReviewContainer row " data-aos="fade-right">
         <div className="col-8 col-md-8 col-sm-8 col-lg-3 mb-4">
           <div className="card Reviewcard " data-aos="fade-right">

@@ -9,7 +9,7 @@ export function Properties(){
     return(
         <>
      <div className="seperator"></div>
-      <h3 className="text-light" data-aos="fade-right">Browse By Properties!!!</h3>
+      <h3 className="text-danger-emphasis" data-aos="fade-right">Browse By Properties!!!</h3>
       <div className="propertiesContainer row " data-aos="fade-right">
         <div className="col-8 col-md-8 col-sm-8 col-lg-3 mb-4">
           <div className="card propertiescard" data-aos="fade-right">
